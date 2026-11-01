@@ -1,0 +1,319 @@
+{
+  "exclusions": [
+    {
+      "stage": "All submissions",
+      "respondents": 4042
+    },
+    {
+      "stage": "Adults (18+ or age not stated)",
+      "respondents": 4022
+    },
+    {
+      "stage": "... completed all 4 tasting ratings",
+      "respondents": 3729
+    },
+    {
+      "stage": "... named an overall favourite",
+      "respondents": 3721
+    },
+    {
+      "stage": "... not straight-lined (analysis base)",
+      "respondents": 3716
+    }
+  ],
+  "completion": [
+    {
+      "section": "Screener: age",
+      "completion_rate": 0.9923305294408709
+    },
+    {
+      "section": "Habits: roast preference",
+      "completion_rate": 0.974764967837704
+    },
+    {
+      "section": "Tasting: all 4 coffees rated",
+      "completion_rate": 0.9262741217219198
+    },
+    {
+      "section": "Post-tasting: willingness to pay",
+      "completion_rate": 0.8683819891142999
+    },
+    {
+      "section": "Demographics: education",
+      "completion_rate": 0.8505690252350322
+    }
+  ],
+  "ratings": [
+    {
+      "coffee": "Coffee A",
+      "bitterness": 2.14,
+      "acidity": 3.64,
+      "preference": 3.31
+    },
+    {
+      "coffee": "Coffee B",
+      "bitterness": 3.01,
+      "acidity": 2.22,
+      "preference": 3.07
+    },
+    {
+      "coffee": "Coffee C",
+      "bitterness": 3.07,
+      "acidity": 2.37,
+      "preference": 3.06
+    },
+    {
+      "coffee": "Coffee D",
+      "bitterness": 2.16,
+      "acidity": 3.86,
+      "preference": 3.37
+    }
+  ],
+  "dq_flags": {
+    "straightlined": 7,
+    "inconsistent_choice": 10,
+    "under_18": 20,
+    "duplicate_ids": 0
+  },
+  "n_base": 3716,
+  "topline": {
+    "Coffee A": 0.2172,
+    "Coffee B": 0.2075,
+    "Coffee C": 0.2075,
+    "Coffee D": 0.3679
+  },
+  "sample_profile": {
+    "male_share_of_stated_gender": 0.7483,
+    "enthusiast_share": 0.3953,
+    "age_25_44_share": 0.7443
+  },
+  "pref_by_expertise": {
+    "shares": {
+      "Novice (1-3)": {
+        "Coffee A": 0.1925,
+        "Coffee B": 0.3316,
+        "Coffee C": 0.2549,
+        "Coffee D": 0.221
+      },
+      "Intermediate (4-6)": {
+        "Coffee A": 0.2071,
+        "Coffee B": 0.2214,
+        "Coffee C": 0.2332,
+        "Coffee D": 0.3383
+      },
+      "Enthusiast (7-10)": {
+        "Coffee A": 0.2383,
+        "Coffee B": 0.1436,
+        "Coffee C": 0.16,
+        "Coffee D": 0.4581
+      }
+    },
+    "n": {
+      "Novice (1-3)": 561,
+      "Intermediate (4-6)": 1685,
+      "Enthusiast (7-10)": 1469
+    },
+    "chi2": 174.3,
+    "dof": 6,
+    "p": 5.426699988039218e-35,
+    "cramers_v": 0.153
+  },
+  "d_gap_enthusiast_vs_novice": {
+    "diff_pp": 23.7,
+    "ci_pp": [
+      19.4,
+      28.0
+    ]
+  },
+  "pref_by_gender": {
+    "shares": {
+      "Female": {
+        "Coffee A": 0.208,
+        "Coffee B": 0.2837,
+        "Coffee C": 0.2589,
+        "Coffee D": 0.2494
+      },
+      "Male": {
+        "Coffee A": 0.2219,
+        "Coffee B": 0.1809,
+        "Coffee C": 0.1833,
+        "Coffee D": 0.4139
+      }
+    },
+    "n": {
+      "Female": 846,
+      "Male": 2515
+    },
+    "chi2": 96.7,
+    "p": 7.772415694829069e-21,
+    "cramers_v": 0.17
+  },
+  "logit_pick_d": {
+    "n": 3715,
+    "odds_ratios": {
+      "expertise": {
+        "or": 1.147,
+        "ci": [
+          1.102,
+          1.194
+        ],
+        "p": 2.0498729735994904e-11
+      },
+      "female": {
+        "or": 0.767,
+        "ci": [
+          0.635,
+          0.925
+        ],
+        "p": 0.005631293730093295
+      },
+      "age_order": {
+        "or": 0.865,
+        "ci": [
+          0.809,
+          0.926
+        ],
+        "p": 2.527781577394436e-05
+      },
+      "black": {
+        "or": 2.202,
+        "ci": [
+          1.866,
+          2.598
+        ],
+        "p": 9.139925345399966e-21
+      }
+    },
+    "pseudo_r2": 0.056
+  },
+  "weighting": {
+    "target": "Male 50% / Female 50% of respondents stating male or female",
+    "weighted_topline": {
+      "Coffee A": 0.2141,
+      "Coffee B": 0.2306,
+      "Coffee C": 0.2245,
+      "Coffee D": 0.3309
+    },
+    "kish_ess": 2867,
+    "weight_min": 0.67,
+    "weight_max": 1.99
+  },
+  "mainstream_proxy": {
+    "n": 957,
+    "topline": {
+      "Coffee A": 0.1985,
+      "Coffee B": 0.2957,
+      "Coffee C": 0.2978,
+      "Coffee D": 0.2079
+    }
+  },
+  "wtp_15_plus": {
+    "by_expertise": {
+      "Novice (1-3)": 0.1245,
+      "Intermediate (4-6)": 0.2011,
+      "Enthusiast (7-10)": 0.3689
+    },
+    "by_favourite": {
+      "Coffee A": 0.2635,
+      "Coffee B": 0.183,
+      "Coffee C": 0.1819,
+      "Coffee D": 0.3359
+    },
+    "overall": 0.2575,
+    "n": 3491
+  },
+  "segmentation": {
+    "silhouette": {
+      "2": 0.333,
+      "3": 0.277,
+      "4": 0.249,
+      "5": 0.219,
+      "6": 0.223
+    },
+    "k": 4,
+    "profiles": [
+      {
+        "size": 1372,
+        "a": 4.115,
+        "b": 2.49,
+        "c": 2.251,
+        "d": 4.531,
+        "enthusiast": 0.53,
+        "female": 0.162,
+        "black": 0.808,
+        "wtp15": 0.342,
+        "share": 0.369,
+        "name": "Prefers A + D"
+      },
+      {
+        "size": 885,
+        "a": 2.179,
+        "b": 3.867,
+        "c": 3.75,
+        "d": 1.685,
+        "enthusiast": 0.235,
+        "female": 0.374,
+        "black": 0.473,
+        "wtp15": 0.158,
+        "share": 0.238,
+        "name": "Prefers B + C"
+      },
+      {
+        "size": 812,
+        "a": 2.485,
+        "b": 2.963,
+        "c": 3.704,
+        "d": 4.271,
+        "enthusiast": 0.406,
+        "female": 0.233,
+        "black": 0.703,
+        "wtp15": 0.283,
+        "share": 0.219,
+        "name": "Prefers C + D"
+      },
+      {
+        "size": 647,
+        "a": 4.187,
+        "b": 3.366,
+        "c": 3.046,
+        "d": 2.1,
+        "enthusiast": 0.315,
+        "female": 0.301,
+        "black": 0.556,
+        "wtp15": 0.175,
+        "share": 0.174,
+        "name": "Prefers A + B"
+      }
+    ]
+  },
+  "open_ends_coffee_d": {
+    "n_likers_with_notes": 1435,
+    "n_dislikers_with_notes": 765,
+    "code_rates": {
+      "fruity / berry": {
+        "likers": 0.777,
+        "dislikers": 0.5386
+      },
+      "fermented / funky": {
+        "likers": 0.1484,
+        "dislikers": 0.1516
+      },
+      "sour / acidic": {
+        "likers": 0.1352,
+        "dislikers": 0.2641
+      },
+      "bitter / burnt": {
+        "likers": 0.0216,
+        "dislikers": 0.0654
+      },
+      "chocolate / nutty": {
+        "likers": 0.0941,
+        "dislikers": 0.0758
+      },
+      "balanced / smooth": {
+        "likers": 0.0537,
+        "dislikers": 0.0183
+      }
+    }
+  }
+}
